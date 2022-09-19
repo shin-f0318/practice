@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form作成</title>
+        <meta name="decript" content="form作成練習">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <header>
+            <nav id="form-nav">
+                <a href="index.html">practice</a>
+                <a href="samurai.html">サムライ紹介ページ</a>
+            </nav>
+        </header>
+
+        <main>
+        <!-- 様々なフォーム -->
+        <h1>フォームの作成</h1>
+        <form>
+            <h2>テキストボックスの作成</h2>
+            <!-- ラベルの作成 -->
+            <label>氏名</label>
+            <!-- テキストボックス -->
+            <input type="text">
+            <!-- テキストボックスの記入例表示 -->
+            <input type="text" placeholder="名前を入力してください">
+            <br>
+
+            <h2>セレクトタグの作成</h2>
+            <label>年代</label>
+            <!-- セレクトタグ -->
+            <select>
+                <option>10代以下</option>
+                <option>20代</option>
+                <option>30代</option>
+                <option>40代以上</option>
+            </select>
+            <br>
+
+            <h2>テキストエリアの作成</h2>
+            <label>お問い合わせ内容</label>
+            <!-- テキストエリア -->
+            <textarea></textarea>
+            <br>
+
+            <h2>ラジオボタンの作成</h2>
+            <!-- ラジオボタン -->
+            <label>男性</label>
+            <input type="radio" name="gender">
+            <label>女性</label>
+            <input type="radio" name="gender">
+            <label>その他</label>
+            <input type="radio" name="gender">
+            <br>
+
+            <h2>チェックボックスの作成</h2>
+            <label>利用規約に同意する</label>
+            <!-- チェックボックス -->
+            <input type="checkbox">
+            <br>
+            <br>
+
+            <h2>送信ボタンの作成</h2>
+            <!-- 送信ボタン -->
+            <input type="submit" value="送信">
+            <!-- リセットボタン -->
+            <input type="reset" value="リセット">
+            <br>
+
+        </form>
+
+        <br>
+        <br>
+
+        <!-- Webサイトをより構造的に組み立てる -->
+        <h2>Webサイトをより構造的に組み立てる</h2>
+        <table border="1">
+            <tr>
+                <th>タグ</th>
+                <th>用途</th>
+            </tr>
+            <tr>
+                <td>nav</td>
+                <td>Webサイトのナビゲーションを作成する</td>
+            </tr>
+            <tr>
+                <td>article</td>
+                <td>Webサイトの記事を作成する</td>
+            </tr>
+            <tr>
+                <td>section</td>
+                <td>複数の記事に区切りをつける</td>
+            </tr>
+        </table>
+
+        </main>
+    </body>
+</html>
