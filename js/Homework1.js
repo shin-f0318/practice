@@ -2,9 +2,9 @@
 alert("Hellow!");
 
  const userName = "My name is Shinya Fujimoto";
-console.log(userName);
+alert(userName);
 
  const userAddress = "I live in Japan";
-console.log(userAddress);
+alert(userAddress);
 
 alert("Thank you");
