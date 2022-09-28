@@ -88,8 +88,6 @@ console.log(smallNumber2(numbers[0],numbers[4],numbers[3],numbers[2]));
 /* 1つの数字を引数として、
 その数字までの合計値を返却する関数を作成してください。 */
 const totalNumber = (num1) => {
-    let num1 = 100;
-    
-
-
+    return(num1*50)+(num1+100);
 }
+console.log(totalNumber(50));
