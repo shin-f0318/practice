@@ -91,3 +91,11 @@ const totalNumber = (num1) => {
     return(num1*50)+(num1+100);
 }
 console.log(totalNumber(50));
+
+
+const input=document.getElementById("input");
+const submit=document.getElementById("submit");
+
+
+console.log(input);
+console.log(submit);
